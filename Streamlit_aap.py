@@ -30,6 +30,5 @@ my_insert_stmt = """ insert into smoothies.public.orders(ingredients,name_on_ord
 time_to_insert = st.button('submit order')
 if time_to_insert:
 #session.sql(my_insert_stmt).collect()
-
     st.success('Your Smoothie is ordered!', icon="✅")
  
